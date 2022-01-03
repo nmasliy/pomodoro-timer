@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="assets/styles/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="root">
+        <div class="content">
+            <h1 class="content__title">Pomodoro timer</h1>
+            <h3 class="content__subtitle">Press start button to begin</h3>
+            <div class="content__player">
+                <button class="content__player-btn" id="player-prev"><</button>
+                <button class="content__player-btn" id="player-toggle">>=</button>
+                <button class="content__player-btn" id="player-next">></button>
+            </div>
+            <div class="content__buttons">
+                <button class="content__btn" id="btn-start">Start</button>
+                <button class="content__btn" id="btn-stop">Pause</button>
+                <button class="content__btn" id="btn-clear">Clear</button>
+            </div>
+            <div class="content__timer">
+                <div class="content__timer-item" id="timer-hours">00</div>
+                <span>:</span>
+                <div class="content__timer-item" id="timer-minutes">00</div>
+                <span>:</span>
+                <div class="content__timer-item" id="timer-seconds">00</div>
+            </div>
+            <div class="content__date"></div>
+            <div class="content__image">
+                <img src="assets/images/tomato.png" alt="tomato">
+            </div>
+            <div class="content__phrase">Have a nice day!</div>
+            <a class="content__policy" href="https://www.bensound.com">Music: https://www.bensound.com</a>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+    
+</body>
+</html>

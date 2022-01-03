@@ -1,0 +1,92 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+$black: rgb(32, 32, 32);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    background-color: $black;
+    color: #fff;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}  
+
+.root {
+    display: flex;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    &__subtitle {
+    }
+
+    &__image {
+        margin: 50px;
+        img {
+            width: 300px;
+        }
+    }
+
+    &__timer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__policy {
+        display: inline-block;
+        text-decoration: none;
+        color: inherit;
+        margin-top: 20px;
+        font-size: 12px;
+        color: beige;
+    }
+
+    &__date {
+        
+    }
+
+    &__timer-item {
+    }
+
+    &__phrase {
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    &__btn {
+        display: inline-block;
+        text-align: center;
+        padding: 15px 40px;
+        margin: 0 20px;
+        background-color: #fff;
+        border: none;
+        box-shadow: 2px 2px 8px rgb(94, 181, 221);
+        font-weight: 500;
+        outline-color: #fff;
+        cursor: pointer;
+    }
+}

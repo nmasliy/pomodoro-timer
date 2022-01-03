@@ -1,0 +1,93 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  background-color: #202020;
+  color: #fff;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.content__title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.content__image {
+  margin: 50px;
+}
+
+.content__image img {
+  width: 300px;
+}
+
+.content__timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.content__policy {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 20px;
+  font-size: 12px;
+  color: beige;
+}
+
+.content__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.content__btn {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 40px;
+  margin: 0 20px;
+  background-color: #fff;
+  border: none;
+  -webkit-box-shadow: 2px 2px 8px #5eb5dd;
+          box-shadow: 2px 2px 8px #5eb5dd;
+  font-weight: 500;
+  outline-color: #fff;
+  cursor: pointer;
+}
